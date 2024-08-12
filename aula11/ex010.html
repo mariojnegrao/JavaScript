@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulatas</title>
+    <style>
+        main{
+            width: 400px;
+            margin: auto;
+        }
+        p{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Sistema de Multas</h1>
+        Qual a velocidade do seu carro : <input type="number" name="mul" id="mul" placeholder="Valor em km/h">
+        <input type="submit" value="Enter" onclick="multas()" >
+        <p id="msg1"></p>
+    </main>
+
+    <script>
+        function multas(){
+            var m = window.document.getElementById("mul")
+            var n1 = Number(m.value)
+            var msg = window.document.getElementById("msg1")
+            if(n1 > 60){
+                msg.innerText = "Você ultrapassou o limete de velocidade, Multado!"
+            }
+            else{
+                msg.innerText = "Você está dentro do limite de velocidade, use sempre o cinto de segurança e tenha uma boa viagem!"
+            }
+        }
+    </script>
+</body>
+</html>
