@@ -14,11 +14,9 @@ section{
     width:400px;
     background-color: rgb(252, 245, 236);
     width: 400px;
-    height: 300px;
     border-radius: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.489);
     padding: 10px;
-    text-align: center;
 }
 
 footer{

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                <label for="n1">Inicio:</label>
+                <input type="number" name="inicio" id="n1" min="0" max="1000" value="0">
+            </p>
+            <p>
+                <label for="n2">Fim: </label>
+                <input type="number" name="fim" id="n2" min="0" max="1000" value="0">
+            </p>
+            <p>
+                <label for="ipasso">Passo: </label>
+                <input type="number" name="passo" id="ipasso" min="0" max="1000" value="1">
+            </p>
+            <input type="submit" value="contar" onclick="contar()">
+        </div>
+
+        <div>
+            <p id="resultado">Se preparando pra contar...</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;marionegrao</p>
+    </footer>
+    <script src="meuscript.js"></script>
+</body>
+</html>
