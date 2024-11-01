@@ -21,20 +21,6 @@ section{
     text-align: center;
 }
 
-div#resultado{
-    display: block;
-    border: 1px solid rgba(0, 0, 0, 0.29);
-    box-shadow: inset 3px 4px 5px 2px rgba(0, 0, 0, 0.078);
-    border-radius: 5px;
-    width: 150px;
-    height: 225px;
-    margin: auto;
-    overflow: hidden
-}
-#res{
-    overflow: hidden;
-}
-
 footer{
     font-style: italic;
 }
