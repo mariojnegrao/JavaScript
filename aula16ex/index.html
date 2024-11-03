@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <main id="main">
+        <div>
+            <p>
+                <label for="inum">Digite um número(1-100)</label>
+                <input type="number" name="num" id="inum">
+                <input type="button" value="adicionar" onclick="add()">
+                <input type="button" value="Limpar" onclick="limpar()">
+            </p>
+        </div>
+        <div id="d1">
+            <select name="sel" id="isel" size="12" ></select>
+            <p><input type="button" value="Finalizar" onclick="final()"></p>
+            <p id="res"></p>
+        </div>
+    </main>
+    <footer>
+        <p> &copy;Mário Negrão</p>
+    </footer>
+</body>
+<script src="meuscript.js"></script>
+</html>
